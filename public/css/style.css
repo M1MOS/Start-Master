@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body .navbar {
+  background-color: #00004C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+body .navbar .nav-item {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+body .navbar .nav-item h5 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+body .navbar .nav-item ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+  gap: 10px;
+}
+body .nav2 {
+  background-color: #0000FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+}
+body .nav2 h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+body .nav2 h2 {
+  color: white;
+  font-size: 30px;
+}
+body .nav2 button {
+  background-color: #ED0878;
+  color: white;
+  padding: 25px 50px;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+body .main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+body .main .num1 {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+  width: 100%;
+  height: auto;
+  gap: 150px;
+  margin: 50px 0;
+}
+body .main .num1 .num1-txt {
+  width: 15%;
+}
+body .main .num1 .num1-txt h5 {
+  font-size: 30px;
+}
+body .main .num1 .num1-txt p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+body .main .num1 img {
+  width: 20%;
+  border: none;
+  border-radius: 50%;
+  height: auto;
+}
+body .main .num2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: inherit;
+  width: 100%;
+  height: auto;
+  gap: 150px;
+}
+body .main .num2 .num2-txt {
+  width: 15%;
+}
+body .main .num2 .num2-txt h5 {
+  font-size: 30px;
+}
+body .main .num2 .num2-txt p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+body .main .num2 img {
+  width: 20%;
+  border: none;
+  border-radius: 50%;
+  height: auto;
+}
+body .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #000000;
+}
+body .footer p {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
