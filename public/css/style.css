@@ -30,6 +30,9 @@ body .navbar .nav-item ul {
   text-transform: uppercase;
   gap: 10px;
 }
+body .navbar .nav-item ul li {
+  color: #70709A;
+}
 body .nav2 {
   background-color: #0000FF;
   display: flex;
